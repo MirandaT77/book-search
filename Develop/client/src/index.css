@@ -1,17 +1,42 @@
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: Verdana, sans-serif;
+  background-color: navy;
 }
 
 h1,
-h2,
+h2{
+  color: white;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 .small {
   font-weight: 300;
   font-style: italic;
 }
+
+.Navbar {
+  background-color: navy;
+}
+
+#jumbo{
+  background-color: coral;
+}
+
+#viewSaved {
+  background-color: coral;
+}
+
+footer {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+ img {
+  flex-shrink: inherit;
+ }
